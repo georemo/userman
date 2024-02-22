@@ -4,11 +4,15 @@ Below is an example implementation of a Go module called userman that provides
 functions for managing Linux users:
 This module provides the following functions:
 
-	CreateUser: Creates a new user with the specified username.
-	ChangePassword: Changes the password of the specified user.
-	AddUserToGroup: Adds the specified user to the specified group or groups.
-	SetUserAsSudoer: Sets the specified user as a sudoer with optional attributes.
-	RemoveUserFromSudoers: Removes the specified user from the sudoers group.
+		CreateUser: Creates a new user with the specified username.
+		ChangePassword: Changes the password of the specified user.
+		AddUserToGroup: Adds the specified user to the specified group or groups.
+		SetUserAsSudoer: Sets the specified user as a sudoer with optional attributes.
+		RemoveUserFromSudoers: Removes the specified user from the sudoers group.
+
+		ToDo:
+		UserExists: Check if user exists
+	    UpdateSudoer: Modify sudoer attributes
 
 You can use this module in your Go programs to manage Linux users. Make sure to
 handle errors appropriately in your application logic. Additionally, you may need
