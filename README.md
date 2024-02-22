@@ -1,5 +1,5 @@
 # userman
-A golang facility for managing linux users
+A golang module for managing linux users
 
 ## ToDo:
-Eventually the facility should work accross different oses
+Eventually the module should work accross different oses
